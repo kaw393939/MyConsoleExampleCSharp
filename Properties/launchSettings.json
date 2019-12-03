@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MyConsoleExample": {
+      "commandName": "Project",
+      "commandLineArgs": "-name John"
+    }
+  }
+}

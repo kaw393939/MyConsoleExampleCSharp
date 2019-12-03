@@ -6,7 +6,8 @@ namespace MyConsoleExample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Interpolated Strings https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated
+            Console.WriteLine($"Hello {args[0]} {args[1]}");
         }
     }
 }
